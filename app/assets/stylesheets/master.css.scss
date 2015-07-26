@@ -1,34 +1,37 @@
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
-@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+body {
+    background-image: url('/assets/upfeathers.png');}
 
 .navbar {
-	font-family: Gloria Hallelujah;
-}
+	font-family: Gloria Hallelujah;}
 
-.all {
-	font-family: shadows into light;
-}
+
+h1
+{font-family: shadows into light;}
+
+.imgg
+  {display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto; }
 
 .navbar-brand 
 {
 	font-size: 40;
-color: #F50C0C !important;
-}
+color: #F50C0C !important;}
 
 .navbar-right
-{	font-size: 24;
+{	font-size: 24;}
 
-}
+
 
 a:visited {
     color: #F2F20F;}
 
 a:link {
     color: #F2F20F;
-
 }
 a:hover {
-	color: #13ED22;
-
-}
+	color: #13ED22;}
 

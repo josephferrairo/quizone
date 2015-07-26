@@ -1,6 +1,7 @@
 Quizone::Application.routes.draw do
 
   root 'bobs#index'
+  get 'special', :to => 'bobs#special'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
