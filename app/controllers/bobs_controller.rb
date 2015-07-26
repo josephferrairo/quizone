@@ -1,0 +1,2 @@
+class BobsController < ApplicationController
+end
