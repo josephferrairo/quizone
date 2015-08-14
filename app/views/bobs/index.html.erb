@@ -1,6 +1,19 @@
 <body>
-<div class='imgg col-xs-10 col-xs-offset-1'>
+<div class='booyah-box imgg col-xs-4 col-xs-offset-1'>
 <h1>She's a Super Leek</h1>
 <img src= 'assets/leeks.jpg'>
+</div>
+
+<div class='booyah-box imgg col-xs-5 col-xs-offset-1'>
+<h1><%= @bob.saying %></h1>
+<h2>- <%= @bob.author %></h2>
+</div>
+<div class='booyah-box imgg col-xs-5 col-xs-offset-1'>
+<h1>Enter Your Quote Details</h1>
+<%= simple_form_for Bob.new do |f| %>
+  <%= f.input :saying, :label => "Belcher Quote" %>
+  <%= f.input :author, :label => "Belcher responsible for said quote"  %>
+  <%= f.submit 'Create', :class => 'btn btn-danger' %>
+<% end %>
 </div>
 </body>
