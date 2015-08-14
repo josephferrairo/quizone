@@ -10,6 +10,9 @@ class BobsController < ApplicationController
 
 	def show
 @bob = Bob.where(:id => params[:id]).first
+if @bob.blank?
+	render :text => "Not Found", :status => :not_found
+end
 end
 
 	def new
